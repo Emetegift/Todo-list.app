@@ -28,8 +28,8 @@ SECRET_KEY = 'django-insecure-(%1yi!-1jv^12)7c%+2uw0nla7x@#c-^33g!00rn*us0z2d^7c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['vercel.app', 'now.sh']
+ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['vercel.app', 'now.sh']
 
 
 # Application definition
@@ -85,7 +85,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.config()
+# DATABASES['default'] = dj_database_url.config()
 
 
 
